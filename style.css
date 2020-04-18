@@ -58,7 +58,7 @@ h1 {
 
 .title {
     text-transform: uppercase;
-    margin: 120px 0 40px 0;
+    margin: 120px 0 40px;
 }
 
 .paragraph {
@@ -131,9 +131,6 @@ h1 {
 
 
 .image {
-    background-image: url(./images/hero-desktop.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
+    background: url(./images/hero-desktop.jpg) no-repeat center;
     background-size: cover;
 }
-
